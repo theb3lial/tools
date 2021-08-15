@@ -1,5 +1,5 @@
 import os
-import time
+from time import sleep
 
 fPreto = '\033[2;30m'
 fBranco = '\033[1;97m'
@@ -23,7 +23,6 @@ def tool():
   {fAmarelo}/ |  / /
  {fReset}/  |   \\\__
 ~~~~    (~~~)
-
 01 {fCiano}> {fReset}sqlmap          07 {fCiano}> {fReset}Evil-Droid          99 {fCiano}> {fReset}Exit
 02 {fCiano}> {fReset}dotdotpwn       08 {fCiano}> {fReset}AdvPhishing
 03 {fCiano}> {fReset}BlackWidow      09 {fCiano}> {fReset}slowloris
@@ -51,78 +50,78 @@ def clear():
 try:
     while True:
         clear()
-        time.sleep(1)
+        sleep(1)
         tool()
         insert = str(input(f"{fCiano}λ {fReset}"))
         if insert == "1" or insert == "01":
             clear()
-            time.sleep(1)
+            sleep(1)
             download()
             os.system(f"cd $HOME&&git clone https://github.com/sqlmapproject/sqlmap")
             input(f"\nPressione ENTER para voltar ")
         elif insert == "2" or insert == "02":
             clear()
-            time.sleep(1)
+            sleep(1)
             download()
             os.system(f"cd $HOME&&git clone https://github.com/wireghoul/dotdotpwn")
             input(f"\nPressione ENTER para voltar ")
         elif insert == "3" or insert == "03":
             clear()
-            time.sleep(1)
+            sleep(1)
             download()
             os.system(f"cd $HOME&&git clone https://github.com/1N3/BlackWidow")
             input(f"\nPressione ENTER para voltar ")
         elif insert == "4" or insert == "04":
             clear()
-            time.sleep(1)
+            sleep(1)
             download()
             os.system(f"cd $HOME&&git clone https://github.com/sherlock-project/sherlock")
             input(f"\nPressione ENTER para voltar ")
         elif insert == "5" or insert == "05":
             clear()
-            time.sleep(1)
+            sleep(1)
             download()
             os.system(f"cd $HOME&&git clone https://github.com/5l1v3r1/BlackHydra")
             input(f"\nPressione ENTER para voltar ")
         elif insert == "6" or insert == "06":
             clear()
-            time.sleep(1)
+            sleep(1)
             download()
             os.system(f"cd $HOME&&git clone https://github.com/htr-tech/track-ip")
             input(f"\nPressione ENTER para voltar ")
         elif insert == "7" or insert == "07":
             clear()
-            time.sleep(1)
+            sleep(1)
             download()
             os.system(f"cd $HOME&&git clone https://github.com/M4sc3r4n0/Evil-Droid")
             input(f"\nPressione ENTER para voltar ")
         elif insert == "8" or insert == "08":
             clear()
-            time.sleep(1)
+            sleep(1)
             download()
             os.system(f"cd $HOME&&git clone https://github.com/Ignitetch/AdvPhishing")
             input(f"\nPressione ENTER para voltar ")
         elif insert == "9" or insert == "09":
             clear()
-            time.sleep(1)
+            sleep(1)
             download()
             os.system(f"cd $HOME&&git clone https://github.com/gkbrk/slowloris")
             input(f"\nPressione ENTER para voltar ")
         elif insert == "10":
             clear()
-            time.sleep(1)
+            sleep(1)
             download()
             os.system(f"cd $HOME&&git clone https://github.com/D4Vinci/One-Lin3r")
             input(f"Pressione ENTER para voltar:")
         elif insert == "11":
             clear()
-            time.sleep(1)
+            sleep(1)
             download()
             os.system(f"cd $HOME&&git clone https://github.com/pwn0sec/PwnXSS")
             input(f"\nPressione ENTER para voltar ")
         elif insert == "12":
             clear()
-            time.sleep(1)
+            sleep(1)
             download()
             os.system(f"cd $HOME&&git clone https://github.com/ExpertAnonymous/PhoneInfoga")
             input(f"\nPressione ENTER para voltar ")
@@ -131,7 +130,7 @@ try:
             break
         else:
             print(f"Opção inválida, tente novamente em 5 segundos...")
-            time.sleep(5)
+            sleep(5)
 
 except KeyboardInterrupt:
     print(f"\nVolte sempre.")
