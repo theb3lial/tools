@@ -23,7 +23,7 @@ def tool():
   {fAmarelo}/ |  / /
  {fReset}/  |   \\\__
 ~~~~    (~~~)\n
-01 {fCiano}> {fReset}sqlmap          07 {fCiano}> {fReset}Evil-Droid          99 {fCiano}> {fReset}Exit
+01 {fCiano}> {fReset}sqlmap          07 {fCiano}> {fReset}Evil-Droid          99 {fCiano}> {fReset}exit
 02 {fCiano}> {fReset}dotdotpwn       08 {fCiano}> {fReset}AdvPhishing
 03 {fCiano}> {fReset}BlackWidow      09 {fCiano}> {fReset}slowloris
 04 {fCiano}> {fReset}sherlock        10 {fCiano}> {fReset}One-Lin3r
